@@ -29,8 +29,11 @@
         .nav-links a {
             margin: 0 1rem;
             text-decoration: none;
-            color: #0073b1;
+            color: #ff9900; /* Changed to contrasting orange */
             font-weight: bold;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
         }
         .container {
             display: flex;
@@ -43,16 +46,20 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .photo {
-            width: 50%;
+            width: 40%;
             padding: 2rem;
         }
         .photo img {
             width: 100%;
             height: auto;
             border-radius: 10px;
+            object-fit: cover;
+            /* Cropped by adjusting width and height */
+            height: 85%;
+            object-position: center center;
         }
         .profile-content {
-            width: 50%;
+            width: 60%;
             padding: 2rem;
         }
         .profile-content h2 {
@@ -65,6 +72,7 @@
         .links {
             text-align: center;
             margin-top: 2rem;
+            margin-bottom: 2rem; /* Increased space between links and footer */
         }
         .links a {
             margin: 0 1rem;
@@ -95,6 +103,7 @@
         <a href="comments.html">Comments</a>
         <a href="positions.html">Positions Held</a>
         <a href="events.html">Events</a>
+        <a href="certifications.html">Certifications</a>
         <a href="Profile (2).pdf" target="_blank">Resume</a>
     </div>
 </header>
@@ -109,10 +118,10 @@
     <!-- About Section (Right) -->
     <div class="profile-content">
         <h2>About Me</h2>
-        <p>Hi! I am Emil Mathew Binny, a Finance and Business Strategy professional with an MBA from Rice University. I have over 5 years of experience in financial modeling, credit & risk management, and strategic consulting.</p>
-        <p>Currently, I work as a Financial Analyst at Neste, managing $75M in credit limits, analyzing financial statements, and optimizing credit management processes. I’ve also contributed to streamlining credit approvals, improving risk management tools, and reducing counterparty risk.</p>
-        <p>In my previous roles, I helped VAS Carbons grow revenue by 40% through market analysis and pricing strategies. Additionally, I led the creation of two subsidiaries, enhancing operational efficiency by 20%. My strategic insights in supply chain management and financial forecasting have helped companies like Sasol and Toshiba improve their processes and reduce costs.</p>
-        <p>As a certified Scrum Master and with my leadership experience from my time as President of the Indian Students Association at Rice, I thrive in fast-paced, evolving environments.</p>
+        <p>Hi! I am Emil Mathew Binny, a Finance and Business Strategy professional with an MBA from Rice University. I have over 5 years of experience in financial modeling, credit & risk management, and strategic consulting. Currently, I work as a Financial Analyst at Neste, managing $75M in credit limits, analyzing financial statements, and optimizing credit management processes.</p>
+        <p>In my previous roles, I drove a 40% revenue growth for VAS Carbons through market analysis and pricing strategies, while also leading the creation of two subsidiaries, enhancing operational efficiency by 20%. I also have significant consulting experience, optimizing supply chains and market strategies for companies like Sasol and Toshiba.</p>
+        <p>At Rice University, I served as President of the Indian Students Association, organizing campus-wide events and working with key stakeholders. My academic journey, which includes an MA in Applied Economics from Jawaharlal Nehru University, equipped me with strong financial analysis, data analytics, and risk management skills.</p>
+        <p>My certifications include Scrum Master (SMC) and National Eligibility Test, and I have completed courses in Finance, Accounting, and Valuation, strengthening my expertise in business transformation and management consulting.</p>
     </div>
 </div>
 
