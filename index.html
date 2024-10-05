@@ -16,18 +16,19 @@
         .main-container {
             display: flex;
             align-items: center;
+            justify-content: center; /* Center horizontally */
             height: 100vh;
             padding: 0 2rem;
         }
         .photo-section {
             flex: 1;
+            max-width: 400px; /* Reduce the width of the image container */
             position: relative;
         }
         .photo-section img {
             border-radius: 20px;
-            width: 100%;
-            height: auto; /* Set auto height to maintain aspect ratio */
-            max-height: 85vh; /* Limit the maximum height */
+            width: 100%; /* Ensure it takes up full width of container */
+            height: auto; /* Maintain aspect ratio */
             object-fit: contain; /* Ensure the entire image is displayed */
             object-position: center;
             border: 8px solid #f39c12; /* Yellow-orange accent */
@@ -35,6 +36,7 @@
         }
         .info-section {
             flex: 1;
+            max-width: 600px; /* Limit the width of the text container */
             padding-left: 2rem;
         }
         .info-section h1 {
@@ -162,7 +164,9 @@
             I’ve worked with international teams, managed large portfolios, and thrived in fast-paced environments. Let’s explore what makes my journey 
             unique and exciting!
         </p>
-        <button class="btn btn-custom">More About Me</button>
+        <button class="btn btn-custom">
+            <a href="#about" style="color: white; text-decoration: none;">More About Me</a>
+        </button>
     </div>
 </div>
 
@@ -176,7 +180,6 @@
 
 <!-- Right Sidebar with Navigation Links -->
 <div class="right-icons">
-    <!-- About & Portfolio -->
     <a href="#about" data-name="About"><i class="bi bi-person"></i></a>
     <a href="#portfolio" data-name="Portfolio"><i class="bi bi-briefcase"></i></a>
 
