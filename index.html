@@ -8,108 +8,118 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
+            background-color: #1e1e1e; /* Dark background */
+            color: #fff;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
         }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1.5rem;
-            text-align: center;
+        .main-container {
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            padding: 0 2rem;
         }
-        header h1 {
-            margin: 0;
-            font-size: 2rem;
+        .photo-section {
+            flex: 1;
+            position: relative;
         }
-        .nav-links a {
-            margin: 0 1rem;
-            color: #ff9900; /* Changed to contrasting orange */
+        .photo-section img {
+            border-radius: 20px;
+            width: 100%;
+            height: 90vh;
+            object-fit: cover;
+            object-position: center;
+            border: 8px solid #f39c12; /* Yellow-orange accent */
+        }
+        .info-section {
+            flex: 1;
+            padding-left: 2rem;
+        }
+        .info-section h1 {
+            color: #f39c12; /* Yellow-orange accent for name */
             font-weight: bold;
         }
-        .nav-links a:hover {
-            text-decoration: underline;
-        }
-        .profile-content p {
-            line-height: 1.6;
+        .info-section h2 {
+            font-size: 2rem;
+            font-weight: bold;
             margin-bottom: 1.5rem;
         }
-        .photo img {
-            width: 100%;
-            border-radius: 10px;
-            object-fit: cover;
-            object-position: center center;
-            height: 85%;
+        .info-section p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 2rem;
         }
-        footer {
+        .btn-custom {
+            background-color: #f39c12;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .btn-custom:hover {
+            background-color: #d35400;
+        }
+        .social-icons {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            transform: translateY(-50%);
+        }
+        .social-icons a {
             background-color: #333;
-            color: white;
-            padding: 1.5rem;
-            text-align: center;
+            color: #f39c12;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin: 10px 0;
+            font-size: 20px;
         }
-        footer a {
-            color: white;
-            text-decoration: none;
-        }
-        .links a {
-            margin: 0 1rem;
-            color: #0073b1;
+        .social-icons a:hover {
+            background-color: #f39c12;
+            color: #fff;
         }
     </style>
 </head>
 <body>
 
-<!-- Header with Navigation Links -->
-<header>
-    <h1>Emil Mathew Binny</h1>
-    <div class="nav-links">
-        <a href="blogs.html">Blogs</a>
-        <a href="comments.html">Comments</a>
-        <a href="positions.html">Positions Held</a>
-        <a href="events.html">Events</a>
-        <a href="certifications.html">Certifications</a>
-        <a href="Profile (2).pdf" target="_blank">Resume</a>
+<!-- Main Container -->
+<div class="main-container">
+    <!-- Photo Section -->
+    <div class="photo-section">
+        <img src="20230115_124358.JPG" alt="Emil Mathew Binny">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/emilbinny/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/kidilan_mathan/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.youtube.com/@emilbinny" target="_blank"><i class="bi bi-youtube"></i></a>
+            <a href="https://x.com/emil_binny40241" target="_blank"><i class="bi bi-twitter"></i></a>
+        </div>
     </div>
-</header>
 
-<!-- Main Container with Photo and About Section -->
-<div class="container my-5">
-    <div class="row">
-        <!-- Photo Section (Left) -->
-        <div class="col-lg-5 col-md-12 photo">
-            <img src="20230115_124358.JPG" alt="Emil Binny's Photo" class="img-fluid">
-        </div>
-        <!-- About Section (Right) -->
-        <div class="col-lg-7 col-md-12">
-            <div class="profile-content">
-                <h2>About Me</h2>
-                <p>Hi! I am Emil Mathew Binny, a Finance and Business Strategy professional with an MBA from Rice University. I have over 5 years of experience in financial modeling, credit & risk management, and strategic consulting. Currently, I work as a Financial Analyst at Neste, managing $75M in credit limits, analyzing financial statements, and optimizing credit management processes.</p>
-                <p>In my previous roles, I drove a 40% revenue growth for VAS Carbons through market analysis and pricing strategies, while also leading the creation of two subsidiaries, enhancing operational efficiency by 20%. I also have significant consulting experience, optimizing supply chains and market strategies for companies like Sasol and Toshiba.</p>
-                <p>At Rice University, I served as President of the Indian Students Association, organizing campus-wide events and working with key stakeholders. My academic journey, which includes an MA in Applied Economics from Jawaharlal Nehru University, equipped me with strong financial analysis, data analytics, and risk management skills.</p>
-                <p>My certifications include Scrum Master (SMC) and National Eligibility Test, and I have completed courses in Finance, Accounting, and Valuation, strengthening my expertise in business transformation and management consulting.</p>
-            </div>
-        </div>
+    <!-- Info Section -->
+    <div class="info-section">
+        <h1>Emil Mathew Binny</h1>
+        <h2>Finance & Business Strategy Professional</h2>
+        <p>
+            Hi! I am Emil Mathew Binny, a Finance and Business Strategy professional with an MBA from Rice University. 
+            I have over 5 years of experience in financial modeling, credit & risk management, and strategic consulting.
+        </p>
+        <p>
+            I have driven a 40% revenue growth for VAS Carbons, optimized supply chains for Sasol and Toshiba, and managed 
+            $75M in credit limits for Neste. I’m passionate about solving business challenges with strategic foresight and analytical precision.
+        </p>
+        <button class="btn btn-custom">More About Me</button>
     </div>
 </div>
 
-<!-- Social Links and Contact Section -->
-<div class="container text-center my-5">
-    <h2>Connect with Me</h2>
-    <div class="links">
-        <a href="https://www.linkedin.com/in/emilbinny/" target="_blank">LinkedIn</a>
-        <a href="https://www.instagram.com/kidilan_mathan/" target="_blank">Instagram</a>
-        <a href="https://www.youtube.com/@emilbinny" target="_blank">YouTube</a>
-        <a href="https://x.com/emil_binny40241" target="_blank">X (Twitter)</a>
-    </div>
-</div>
-
-<!-- Footer -->
-<footer>
-    <p>If you want to reach out, feel free to send me an email at <a href="mailto:emil.binny@gmail.com">emil.binny@gmail.com</a>.</p>
-    <p>&copy; 2024 Emil Mathew Binny | All Rights Reserved</p>
-</footer>
-
-<!-- Bootstrap JS (optional but helps with interactivity) -->
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 </body>
 </html>
