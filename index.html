@@ -100,6 +100,42 @@
             background-color: #f39c12;
             color: white;
         }
+
+        /* Horizontal Social Media Icons on the top-right */
+        .social-icons-horizontal {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons-horizontal a {
+            background-color: #333;
+            color: #f39c12;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 20px;
+            position: relative;
+        }
+        .social-icons-horizontal a:hover::after {
+            content: attr(data-name);
+            position: absolute;
+            bottom: -30px;
+            background-color: #000;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+        .social-icons-horizontal a:hover {
+            background-color: #f39c12;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -108,7 +144,7 @@
 <div class="main-container">
     <!-- Photo Section -->
     <div class="photo-section">
-        <img src="20230115_124358-removebg-preview.png" alt="Emil Mathew Binny">
+        <img src="web_cover-removebg-preview.png" alt="Emil Mathew Binny">
     </div>
 
     <!-- Info Section -->
@@ -129,7 +165,15 @@
     </div>
 </div>
 
-<!-- Right Sidebar with Navigation and Social Media Links -->
+<!-- Horizontal Social Media Links on Top Right -->
+<div class="social-icons-horizontal">
+    <a href="https://www.linkedin.com/in/emilbinny/" target="_blank" data-name="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    <a href="https://www.instagram.com/kidilan_mathan/" target="_blank" data-name="Instagram"><i class="bi bi-instagram"></i></a>
+    <a href="https://www.youtube.com/@emilbinny" target="_blank" data-name="YouTube"><i class="bi bi-youtube"></i></a>
+    <a href="https://x.com/emil_binny40241" target="_blank" data-name="X (Twitter)"><i class="bi bi-twitter"></i></a>
+</div>
+
+<!-- Right Sidebar with Navigation Links -->
 <div class="right-icons">
     <!-- About & Portfolio -->
     <a href="#about" data-name="About"><i class="bi bi-person"></i></a>
@@ -139,12 +183,6 @@
     <a href="#blogs" data-name="Blogs"><i class="bi bi-file-earmark-text"></i></a>
     <a href="#comments" data-name="Comments"><i class="bi bi-chat-left-text"></i></a>
     <a href="#certifications" data-name="Certifications"><i class="bi bi-award"></i></a>
-
-    <!-- Social Media Links -->
-    <a href="https://www.linkedin.com/in/emilbinny/" target="_blank" data-name="LinkedIn"><i class="bi bi-linkedin"></i></a>
-    <a href="https://www.instagram.com/kidilan_mathan/" target="_blank" data-name="Instagram"><i class="bi bi-instagram"></i></a>
-    <a href="https://www.youtube.com/@emilbinny" target="_blank" data-name="YouTube"><i class="bi bi-youtube"></i></a>
-    <a href="https://x.com/emil_binny40241" target="_blank" data-name="X (Twitter)"><i class="bi bi-twitter"></i></a>
 </div>
 
 <!-- Bootstrap JS -->
