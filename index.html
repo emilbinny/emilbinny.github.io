@@ -11,6 +11,7 @@
             background-color: #1e1e1e; /* Dark background */
             color: #fff;
             font-family: Arial, sans-serif;
+            position: relative;
         }
         .main-container {
             display: flex;
@@ -29,6 +30,7 @@
             object-fit: cover;
             object-position: center;
             border: 8px solid #f39c12; /* Yellow-orange accent */
+            background: transparent; /* Transparent background */
         }
         .info-section {
             flex: 1;
@@ -60,7 +62,9 @@
         .btn-custom:hover {
             background-color: #d35400;
         }
-        .social-icons {
+
+        /* Right Sidebar with Interactive Icons */
+        .right-icons {
             position: absolute;
             top: 50%;
             right: 20px;
@@ -68,7 +72,7 @@
             flex-direction: column;
             transform: translateY(-50%);
         }
-        .social-icons a {
+        .right-icons a {
             background-color: #333;
             color: #f39c12;
             width: 50px;
@@ -79,10 +83,22 @@
             border-radius: 50%;
             margin: 10px 0;
             font-size: 20px;
+            position: relative;
         }
-        .social-icons a:hover {
-            background-color: #f39c12;
+        .right-icons a:hover::after {
+            content: attr(data-name);
+            position: absolute;
+            left: -140px;
+            background-color: #000;
             color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+        .right-icons a:hover {
+            background-color: #f39c12;
+            color: white;
         }
     </style>
 </head>
@@ -92,13 +108,7 @@
 <div class="main-container">
     <!-- Photo Section -->
     <div class="photo-section">
-        <img src="20230115_124358.JPG" alt="Emil Mathew Binny">
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/emilbinny/" target="_blank"><i class="bi bi-linkedin"></i></a>
-            <a href="https://www.instagram.com/kidilan_mathan/" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.youtube.com/@emilbinny" target="_blank"><i class="bi bi-youtube"></i></a>
-            <a href="https://x.com/emil_binny40241" target="_blank"><i class="bi bi-twitter"></i></a>
-        </div>
+        <img src="20230115_124358-removebg-preview.png" alt="Emil Mathew Binny">
     </div>
 
     <!-- Info Section -->
@@ -106,15 +116,35 @@
         <h1>Emil Mathew Binny</h1>
         <h2>Finance & Business Strategy Professional</h2>
         <p>
-            Hi! I am Emil Mathew Binny, a Finance and Business Strategy professional with an MBA from Rice University. 
-            I have over 5 years of experience in financial modeling, credit & risk management, and strategic consulting.
+            I am Emil Mathew Binny, a multifaceted professional with a deep passion for finance, strategy, and business transformation. 
+            My career spans over 5 years, during which I've made a significant impact by driving revenue growth, optimizing operational efficiency, 
+            and leading high-impact teams across multiple industries.
         </p>
         <p>
-            I have driven a 40% revenue growth for VAS Carbons, optimized supply chains for Sasol and Toshiba, and managed 
-            $75M in credit limits for Neste. I’m passionate about solving business challenges with strategic foresight and analytical precision.
+            Beyond my professional accomplishments, I’m known for my strategic foresight, adaptability, and hands-on approach to problem-solving. 
+            I’ve worked with international teams, managed large portfolios, and thrived in fast-paced environments. Let’s explore what makes my journey 
+            unique and exciting!
         </p>
         <button class="btn btn-custom">More About Me</button>
     </div>
+</div>
+
+<!-- Right Sidebar with Navigation and Social Media Links -->
+<div class="right-icons">
+    <!-- About & Portfolio -->
+    <a href="#about" data-name="About"><i class="bi bi-person"></i></a>
+    <a href="#portfolio" data-name="Portfolio"><i class="bi bi-briefcase"></i></a>
+
+    <!-- Blogs, Comments, Certifications -->
+    <a href="#blogs" data-name="Blogs"><i class="bi bi-file-earmark-text"></i></a>
+    <a href="#comments" data-name="Comments"><i class="bi bi-chat-left-text"></i></a>
+    <a href="#certifications" data-name="Certifications"><i class="bi bi-award"></i></a>
+
+    <!-- Social Media Links -->
+    <a href="https://www.linkedin.com/in/emilbinny/" target="_blank" data-name="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    <a href="https://www.instagram.com/kidilan_mathan/" target="_blank" data-name="Instagram"><i class="bi bi-instagram"></i></a>
+    <a href="https://www.youtube.com/@emilbinny" target="_blank" data-name="YouTube"><i class="bi bi-youtube"></i></a>
+    <a href="https://x.com/emil_binny40241" target="_blank" data-name="X (Twitter)"><i class="bi bi-twitter"></i></a>
 </div>
 
 <!-- Bootstrap JS -->
