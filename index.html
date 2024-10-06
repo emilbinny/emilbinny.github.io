@@ -25,14 +25,16 @@
 
         /* Photo section */
         .photo-section {
-            flex: 0 0 40%; /* Take up 40% of the space */
-            position: relative;
+            flex: 0 0 30%; /* Take up 30% of the space */
+            position: absolute; /* Position it at the extreme left */
+            left: 0; /* Align to the extreme left */
+            padding-left: 0;
         }
 
         .photo-section img {
             border-radius: 20px;
-            width: 100%;
-            transform: scale(1.3); /* Make the image 1.3x larger */
+            width: 100%; /* Ensure it takes up full width of container */
+            transform: scale(1.2); /* Reduce size to 1.2x the original */
             object-fit: contain;
             object-position: center;
             border: 8px solid #f39c12; /* Yellow-orange accent */
@@ -42,7 +44,7 @@
         /* Info section */
         .info-section {
             flex: 1; /* Fill remaining space */
-            padding-left: 2rem;
+            padding-left: 32%; /* Shift to the right to make space for photo */
             max-width: 600px; /* Limit width */
         }
 
@@ -166,6 +168,8 @@
 
             .photo-section {
                 flex: 0 0 60%; /* Scale photo section to fit */
+                position: static;
+                padding-left: 0;
                 margin-bottom: 1rem;
             }
 
@@ -198,10 +202,20 @@
         <h1>Emil Mathew Binny</h1>
         <h2>Finance & Business Strategy Professional</h2>
         <p>
-            I am Emil Mathew Binny, a finance and business strategy professional with over 5 years of experience. My journey has been filled with unique challenges, including surviving Guillain-Barré Syndrome, which made me an autoimmune warrior.
+            I am Emil Mathew Binny, a finance and business strategy professional with over 5 years of experience in financial modeling, 
+            credit and risk management, and strategic consulting. I have successfully driven a 40% revenue growth for VAS Carbons, 
+            optimized supply chains for Sasol and Toshiba, and managed $75M in credit limits for Neste.
         </p>
         <p>
-            I have also worn multiple hats besides my professional and academic career. I served as the President of the Indian Students Association and Vice President of the Graduate Students Association at Rice University, hosting over 20 events on campus in a year.
+            I am also an autoimmune warrior, having survived Guillain-Barré Syndrome, a rare disorder where my immune system attacked my nerves.
+        </p>
+        <p>
+            Beyond my professional accomplishments, I’ve worn multiple hats as a leader. I was the President of the Indian Students Association 
+            and Vice President of the Graduate Students Association at Rice University, where I hosted over 20 events on campus in a year.
+        </p>
+        <p>
+            My strategic foresight, adaptability, and hands-on approach to problem-solving are reflected in both my academic and leadership experiences, 
+            and I am excited to share my journey and expertise with others.
         </p>
         <button class="btn btn-custom">
             <a href="#about" style="color: white; text-decoration: none;">More About Me</a>
