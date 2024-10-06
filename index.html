@@ -26,8 +26,6 @@
         /* Photo section */
         .photo-section {
             flex: 0 0 30%; /* Take up 30% of the space */
-            position: absolute; /* Position it at the extreme left */
-            left: 0; /* Align to the extreme left */
             padding-left: 0;
         }
 
@@ -44,8 +42,9 @@
         /* Info section */
         .info-section {
             flex: 1; /* Fill remaining space */
-            padding-left: 32%; /* Shift to the right to make space for photo */
             max-width: 600px; /* Limit width */
+            text-align: justify; /* Fix text alignment for better readability */
+            line-height: 1.8; /* Increase line-height for better spacing */
         }
 
         .info-section h1 {
@@ -73,6 +72,7 @@
             padding: 10px 20px;
             text-transform: uppercase;
             font-weight: bold;
+            text-align: center;
         }
 
         .btn-custom:hover {
@@ -168,7 +168,6 @@
 
             .photo-section {
                 flex: 0 0 60%; /* Scale photo section to fit */
-                position: static;
                 padding-left: 0;
                 margin-bottom: 1rem;
             }
