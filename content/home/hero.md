@@ -1,5 +1,6 @@
 ---
 widget: hero
+active: true
 headless: true
 weight: 10
 title: Emil Mathew Binny
@@ -12,3 +13,4 @@ I help professionals and serious aspirants think clearly, decide better, and pre
 - Economics & MBA tutoring with conceptual clarity  
 - UPSC economics coaching for serious aspirants  
 - Interview & resume preparation from the hiring side
+
