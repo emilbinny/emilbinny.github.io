@@ -1,21 +1,27 @@
 # SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# Hugo Blox Builder
+# https://docs.hugoblox.com/
 
+# -------------------------
 # Appearance
+# -------------------------
 appearance:
   mode: system
   color: indigo
 
-# SEO
+# -------------------------
+# Marketing & SEO
+# -------------------------
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    org_name: 'Emil Mathew Binny'
+    description: >
+      Emil Mathew Binny is a business and economics professional offering
+      consulting, tutoring, UPSC economics coaching, and interview preparation.
+      Experience across strategy consulting, finance, and higher education.
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -26,33 +32,38 @@ marketing:
     google: ''
     baidu: ''
 
-# Site header
+# -------------------------
+# Site Header / Navbar
+# -------------------------
 header:
   navbar:
     enable: true
-    block: 'navbar'
+    block: navbar
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Your Name'
+      text: 'Emil Mathew Binny'
 
-# Site footer
+# -------------------------
+# Site Footer
+# -------------------------
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Emil Mathew Binny. All rights reserved.'
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false
 
+# -------------------------
 # Localization
+# -------------------------
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
 
-# Site features
+# -------------------------
+# Site Features
+# -------------------------
 features:
   math:
     enable: false
