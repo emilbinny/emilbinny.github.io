@@ -3,6 +3,16 @@
 # https://docs.hugoblox.com/
 
 # -------------------------
+# FORCE BLOCK-BASED HOMEPAGE (CRITICAL)
+# -------------------------
+home:
+  sections:
+    enabled: true
+
+cv:
+  enable: false
+
+# -------------------------
 # Appearance
 # -------------------------
 appearance:
@@ -69,3 +79,4 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
