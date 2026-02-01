@@ -40,5 +40,3 @@ You can explore my services in detail or start with a conversation to assess fit
 
 - 👉 Visit the **Services** page  
 - 👉 Go to **Contact** to book a call
-
-
