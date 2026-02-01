@@ -52,7 +52,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      icon: '/uploads/logo_extracted.png'
+      icon: '/media/logo_extracted.png'
       text: ''
 
 # -------------------------
