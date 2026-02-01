@@ -3,15 +3,14 @@ title: Emil Mathew Binny
 summary: Business & Economics Consultant
 
 sections:
-  - block: hero
+  - block: markdown
     content:
       title: Emil Mathew Binny
+      subtitle: Business & Economics Consultant
       text: |
-        ## Business & Economics Consultant
-
         I help professionals and serious aspirants think clearly, decide better, and prepare with depth.
 
-        I'm **Emil Mathew Binny** — a business and economics professional with experience across strategy consulting, finance, and higher education.
+        I'm a business and economics professional with experience across strategy consulting, finance, and higher education.
 
         I've driven **40% revenue growth**, managed **$75M+ credit portfolios**, worked with global firms, interviewed **250+ candidates**, and taught economics at the university level.
 
