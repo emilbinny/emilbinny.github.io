@@ -3,16 +3,6 @@
 # https://docs.hugoblox.com/
 
 # -------------------------
-# FORCE BLOCK-BASED HOMEPAGE (CRITICAL)
-# -------------------------
-home:
-  sections:
-    enabled: true
-
-cv:
-  enable: false
-
-# -------------------------
 # Appearance
 # -------------------------
 appearance:
@@ -41,6 +31,15 @@ marketing:
   verification:
     google: ''
     baidu: ''
+
+# -------------------------
+# Academic CV Homepage (ENABLE THIS)
+# -------------------------
+cv:
+  enable: true
+
+hero:
+  enable: true
 
 # -------------------------
 # Site Header / Navbar
