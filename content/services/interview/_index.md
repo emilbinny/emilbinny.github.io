@@ -1,54 +1,44 @@
 ---
-title: Interview Preparation & Resume Coaching
+title: Interview & Resume Coaching
+summary: Preparation grounded in real hiring experience — not guesswork.
 ---
 
-## Overview
+## Interview & Resume Coaching
 
-I offer interview preparation and resume coaching based on a **hiring-side perspective**.
+Most interview prep teaches you how to *answer* questions. This is different — it teaches you how to **think** the way a hiring manager does.
 
-I have personally interviewed **250+ candidates** across roles and experience levels, which gives me a clear understanding of what interviewers actually look for — and what commonly goes wrong.
-
----
-
-## What I Help With
-
-- Mock interviews with detailed feedback
-- Resume structure and content refinement
-- Behavioral interview preparation
-- Storytelling and answer structuring
-- Identifying and fixing red flags
-- Confidence and clarity in responses
+Having personally interviewed over 250 candidates across roles, industries, and experience levels, I know exactly where most people lose. It's rarely about qualifications. It's about clarity, structure, and how you frame your experience.
 
 ---
 
-## My Perspective
+### Who This Is For
 
-- Experience interviewing candidates
-- Corporate background across strategy and finance
-- MBA from Rice University
-- Exposure to both technical and behavioral evaluations
-
----
-
-## Who This Is For
-
-- Students and early professionals
-- MBA candidates
-- Career switchers
-- Candidates preparing for consulting, finance, or corporate roles
+- Professionals preparing for senior or lateral moves
+- MBA or postgrad students entering competitive hiring pools
+- Anyone who has strong experience but struggles to communicate it well in interviews
 
 ---
 
-## Format
+### What We Work On
 
-- One-on-one mock interviews
-- Resume review sessions
-- Targeted preparation for specific roles
+**Interview Strategy** — how to read what the interviewer actually wants, structure your answers to land, and handle difficult or unexpected questions without fumbling.
+
+**Resume Overhaul** — rewriting your resume so it speaks to the specific role and company, not just listing what you've done. A resume that gets callbacks, not just polite rejections.
+
+**Mock Interviews** — real practice rounds that simulate actual interview pressure. Feedback is direct and specific, not generic.
 
 ---
 
-## Book an Interview Preparation Session
+### How It Works
 
-📅 [Schedule a 30-minute session](https://calendly.com/emilbinny/30min)
+We start with a single call to understand your target role, current resume, and where you feel weakest. From there, sessions are structured around your specific gaps — no filler, no generic advice.
 
-*Interview sessions are paid and outcome-focused.*
+Most people see a clear improvement within two to three focused sessions.
+
+---
+
+### Pricing
+
+Pricing is shared after a brief introductory call. The first conversation is where we assess fit — for both sides.
+
+👉 [Book a 30-minute call](https://calendly.com/emilbinny/30min)
