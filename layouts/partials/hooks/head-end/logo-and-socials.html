@@ -1,22 +1,26 @@
 <!-- EB Logo + Social Icons Injection -->
 <style>
-  /* Hide the default empty navbar logo text */
-  .navbar-logo .logo-text, .navbar-brand .logo-text {
+  /* Target navbar logo universally */
+  nav a[href="/"], header a[href="/"] {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+
+  nav a[href="/"] span, header a[href="/"] span {
     display: none !important;
   }
 
-  /* Inject logo image via CSS into navbar brand area */
-  .navbar-logo::before, .navbar-brand::before {
+  nav a[href="/"]::before, header a[href="/"]::before {
     content: '';
-    display: inline-block;
-    width: 42px;
-    height: 42px;
+    display: block;
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
     background-image: url('/media/logo_extracted.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    vertical-align: middle;
-    margin-right: 8px;
   }
 
   /* Social Icons Container — fixed bottom left */
