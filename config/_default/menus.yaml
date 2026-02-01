@@ -11,14 +11,6 @@ main:
     url: /services/
     weight: 30
 
-  - name: Portfolio
-    url: /projects/
-    weight: 40
-
-  - name: Resources
-    url: /blog/
-    weight: 50
-
   - name: Contact
     url: /contact/
     weight: 60
