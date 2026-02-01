@@ -21,17 +21,17 @@ sections:
     content:
       title: What I Do
       text: |
-        ### Business & Strategy Consulting
-        Structured support on pricing, finance, market entry, and decision-making — grounded in real corporate experience.
+        ### Interview & Resume Coaching
+        Practical preparation from the hiring side — informed by interviewing 250+ candidates across roles and industries.
+
+        ### Economic Research & Writing
+        Rigorous research and analytical writing — done properly, not rushed.
 
         ### Economics & MBA Tutoring
         Concept-first teaching for students who want to *understand*, not just pass.
 
-        ### UPSC Economics Coaching
-        Rigorous, syllabus-aligned guidance for serious aspirants with strong academic intent.
-
-        ### Interview & Resume Coaching
-        Practical preparation from the hiring side — informed by interviewing 250+ candidates across roles and industries.
+        ### Business & Strategy Consulting
+        Structured support on pricing, finance, market entry, and decision-making — grounded in real corporate experience.
 
   - block: markdown
     content:
@@ -39,8 +39,8 @@ sections:
       text: |
         - Professionals navigating complex career or business decisions
         - Students preparing for economics-heavy programs and exams
-        - UPSC aspirants looking for depth, structure, and accountability
         - Candidates preparing for high-stakes interviews
+        - Anyone who values depth, structure, and honest guidance
 
         If you value **clarity, rigor, and honest guidance**, we may be a good fit.
 
