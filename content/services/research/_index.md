@@ -1,56 +1,46 @@
 ---
 title: Economic Research & Writing
+summary: Rigorous research and analytical writing — done properly, not rushed.
 ---
 
-## Overview
+## Economic Research & Writing
 
-I undertake economic research and analytical writing assignments that require **rigor, structure, and clarity**.
+Most economic writing online is surface-level. It sounds informed but lacks structure, rigour, or a clear argument. If you need something that actually holds up — whether it's for a report, a policy brief, an academic submission, or a business proposal — this is where I come in.
 
-My work draws from formal economics training and applied business experience.
-
-This service is suitable for clients who need rigorous economic or analytical writing rather than content marketing or opinion pieces.
-
----
-
-## Types of Work
-
-- Economic research notes
-- Policy-oriented briefs
-- Market and industry analysis
-- Financial and strategic reports
-- Analytical articles and white papers
+My background spans formal economics training at JNU and Rice University, combined with applied work in corporate strategy and finance. That combination means the research isn't just academically sound — it's practically useful.
 
 ---
 
-## Expertise Areas
+### Who This Is For
 
-- Applied economics
-- Financial markets
-- Development and policy issues
-- Business and industry analysis
-- Strategy and decision-making frameworks
-
----
-
-## Background
-
-- MA Applied Economics — JNU
-- MBA (Finance & Strategy) — Rice University
-- Experience in consulting and corporate analysis
+- Founders or professionals who need a well-argued economic analysis for a pitch, proposal, or internal decision
+- Students or researchers working on economics-heavy assignments who need structured, rigorous output
+- Organizations that need a policy or market brief written with clarity and credibility
+- Newsrooms and Publications seeking high-caliber, deadline-driven analysis that bridges the gap between complex policy and public impact
 
 ---
 
-## Engagement Style
+### What I Work On
 
-- Clear scope definition
-- Structured outputs
-- Professional timelines
-- Confidentiality respected
+**Research & Analysis** — deep-dive work on economic questions: market sizing, competitive analysis, sector reports, or policy evaluation. Grounded in data, not opinions.
+
+**Analytical Writing** — turning complex economic ideas into clear, well-structured written pieces. Reports, briefs, essays, or white papers — whatever the format, the standard is the same.
+
+**Editing & Review** — if you've already drafted something but need it sharpened, I'll review for structure, argument clarity, and accuracy before it goes out.
 
 ---
 
-## Discuss a Research or Writing Requirement
+### How It Works
 
-📅 [Schedule a 30-minute discussion](https://calendly.com/emilbinny/30min)
+We start with a call to understand the scope — what you need, who it's for, and what the deadline looks like. From there, I put together a plan and we work through it together. You stay involved at every stage so the output actually fits your needs.
 
-*Please come with a clear scope or brief.*
+Turnaround depends on scope, but I'm upfront about timelines from the start. No surprises.
+
+---
+
+### Pricing
+
+Pricing is shared after a brief introductory call. Scope and timeline are discussed together so the number makes sense before you commit.
+
+👉 [Book a 30-minute call](https://calendly.com/emilbinny/30min)
+
