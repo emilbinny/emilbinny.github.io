@@ -52,7 +52,8 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Emil Mathew Binny'
+      icon: '/uploads/logo_extracted.png'
+      text: ''
 
 # -------------------------
 # Site Footer
@@ -78,5 +79,19 @@ features:
     enable: false
   privacy_pack:
     enable: false
-
+# -------------------------
+# Social Media
+# -------------------------
+social:
+  - icon: linkedin
+    url: 'https://www.linkedin.com/in/emilbinny/'
+  - icon: instagram
+    url: 'https://www.instagram.com/_dil_e_mil_/'
+  - icon: facebook
+    url: 'https://www.facebook.com/emil.binny'
+  - icon: youtube
+    url: 'https://www.youtube.com/@emilbinny'
+  - icon: researchgate
+    url: 'https://www.researchgate.net/profile/Emil-Binny'
+```
 
