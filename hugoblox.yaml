@@ -1,6 +1,0 @@
-build:
-  hugo_version: '0.150.1'
-
-template:
-  id: "personal"
-  name: "Personal"
