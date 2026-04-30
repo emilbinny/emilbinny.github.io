@@ -545,6 +545,20 @@ img { max-width: 100%; display: block; }
    ABOUT PAGE
    ============================================ */
 .about-section { padding: var(--section-pad) 0; }
+
+.about-photo {
+    margin-bottom: 2.5rem;
+}
+.headshot {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 3px solid var(--gold-dim);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -772,8 +786,189 @@ img { max-width: 100%; display: block; }
 }
 
 /* ============================================
-   ANIMATIONS
+   BLOG POST (individual articles)
    ============================================ */
+.blog-post {
+    padding-bottom: var(--section-pad);
+}
+.blog-post-header {
+    padding: 10rem 0 4rem;
+    background: var(--navy);
+    text-align: center;
+    position: relative;
+}
+.blog-post-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(201,168,76,0.2), transparent);
+}
+.blog-post-meta {
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1.5rem;
+}
+.blog-post-title {
+    font-family: var(--font-display);
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    font-weight: 500;
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-post-subtitle {
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--text-muted);
+    max-width: 650px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+.blog-post-byline {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+}
+.blog-post-content {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+.blog-post-content .lead-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--text);
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+.blog-post-content p {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: var(--text);
+    margin-bottom: 1.5rem;
+}
+.blog-post-content h2 {
+    font-family: var(--font-display);
+    font-size: 1.85rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.3;
+}
+.blog-post-content h3 {
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: var(--gold);
+    margin-top: 2.25rem;
+    margin-bottom: 0.85rem;
+    line-height: 1.4;
+}
+.blog-post-content ul,
+.blog-post-content ol {
+    margin: 1rem 0 1.5rem 1.5rem;
+    color: var(--text);
+}
+.blog-post-content li {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 0.75rem;
+    padding-left: 0.5rem;
+}
+.blog-post-content em {
+    color: var(--cream);
+    font-style: italic;
+}
+.blog-post-content strong {
+    color: var(--white);
+    font-weight: 500;
+}
+.blog-post-content hr {
+    border: none;
+    border-top: 1px solid rgba(201,168,76,0.2);
+    margin: 3rem 0;
+}
+.blog-post-content .post-cta {
+    background: var(--charcoal);
+    padding: 2rem;
+    border-radius: 3px;
+    border-left: 2px solid var(--gold);
+    font-size: 1rem;
+    line-height: 1.7;
+}
+.blog-post-content .post-cta a {
+    color: var(--gold);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.blog-post-content .post-cta a:hover {
+    opacity: 0.7;
+}
+
+/* ============================================
+   PRICING (services page)
+   ============================================ */
+.pricing-block {
+    background: var(--charcoal);
+    padding: 1.75rem;
+    border-radius: 3px;
+    border: 1px solid rgba(201,168,76,0.15);
+    margin-top: 2rem;
+}
+.pricing-block h4 {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+}
+.pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.price-card {
+    padding: 1rem;
+    background: var(--navy-deep);
+    border-radius: 3px;
+    text-align: center;
+}
+.price-card-label {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.4rem;
+    display: block;
+}
+.price-card-amount {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--white);
+    font-weight: 500;
+    display: block;
+    line-height: 1.3;
+}
+.price-card-note {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 0.4rem;
+    display: block;
+}
+@media (max-width: 700px) {
+    .pricing-grid { grid-template-columns: 1fr; }
+}
+
+
 @keyframes fadeUp {
     from { opacity: 0; transform: translateY(24px); }
     to { opacity: 1; transform: translateY(0); }
