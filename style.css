@@ -10,6 +10,7 @@ a{color:inherit;text-decoration:none}
 ::selection{background:var(--gold);color:var(--navy)}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
 .eyebrow{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.eyebrow-lg{font-size:.92rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600}
 section{padding:72px 0}
 .sec-head{margin-bottom:36px}
 .sec-head h2{font-family:var(--serif);font-weight:500;font-size:clamp(1.6rem,3.4vw,2.3rem);line-height:1.15;margin-top:10px}
@@ -17,7 +18,7 @@ section{padding:72px 0}
 /* NAV */
 header{position:sticky;top:0;z-index:50;background:rgba(10,23,41,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 nav{display:flex;align-items:center;justify-content:space-between;height:68px;max-width:var(--maxw);margin:0 auto;padding:0 28px}
-.mono{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--gold);border-radius:50%;font-family:var(--serif);font-weight:600;color:var(--gold);letter-spacing:.04em;flex-shrink:0}
+.logo-img{height:42px;width:42px;border-radius:10px;flex-shrink:0}
 .navlinks{display:flex;align-items:center;gap:30px}
 .navlinks a{font-size:.9rem;color:var(--slate);transition:color .2s}
 .navlinks a:hover,.navlinks a:focus-visible,.navlinks a.active{color:var(--cream)}
@@ -32,6 +33,12 @@ nav{display:flex;align-items:center;justify-content:space-between;height:68px;ma
 .btn-ghost{border-color:var(--line);color:var(--cream)}
 .btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
 .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px}
+
+/* SOCIAL ICONS */
+.social-row{display:flex;gap:14px;margin-top:28px;align-items:center}
+.social-icon{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:8px;color:var(--slate);transition:.2s}
+.social-icon:hover{border-color:var(--gold);color:var(--gold);background:rgba(201,162,75,.06)}
+.social-icon svg{width:18px;height:18px;fill:currentColor}
 
 /* FOOTER */
 footer{border-top:1px solid var(--line);padding:54px 0 40px}
