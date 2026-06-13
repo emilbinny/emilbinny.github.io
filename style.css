@@ -18,7 +18,7 @@ section{padding:72px 0}
 /* NAV */
 header{position:sticky;top:0;z-index:50;background:rgba(10,23,41,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 nav{display:flex;align-items:center;justify-content:space-between;height:68px;max-width:var(--maxw);margin:0 auto;padding:0 28px}
-.logo-img{height:42px;width:42px;border-radius:10px;flex-shrink:0}
+.logo-img{height:38px;width:38px;flex-shrink:0;display:block}
 .navlinks{display:flex;align-items:center;gap:30px}
 .navlinks a{font-size:.9rem;color:var(--slate);transition:color .2s}
 .navlinks a:hover,.navlinks a:focus-visible,.navlinks a.active{color:var(--cream)}
@@ -34,11 +34,11 @@ nav{display:flex;align-items:center;justify-content:space-between;height:68px;ma
 .btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
 .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px}
 
-/* SOCIAL ICONS */
-.social-row{display:flex;gap:14px;margin-top:28px;align-items:center}
-.social-icon{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:8px;color:var(--slate);transition:.2s}
+/* SOCIAL ICONS - compact */
+.social-row{display:flex;gap:10px;margin-top:24px;align-items:center}
+.social-icon{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border:1px solid var(--line);border-radius:6px;color:var(--slate);transition:.2s}
 .social-icon:hover{border-color:var(--gold);color:var(--gold);background:rgba(201,162,75,.06)}
-.social-icon svg{width:18px;height:18px;fill:currentColor}
+.social-icon svg{width:14px;height:14px;fill:currentColor}
 
 /* FOOTER */
 footer{border-top:1px solid var(--line);padding:54px 0 40px}
