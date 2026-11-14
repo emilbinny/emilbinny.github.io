@@ -34,6 +34,31 @@
     });
   });
 
+  // Consent banner. The page head sets window.ebAskConsent for visitors in Europe.
+  if (window.ebAskConsent) {
+    var bar = document.createElement("div");
+    bar.className = "consent";
+    bar.setAttribute("role", "region");
+    bar.setAttribute("aria-label", "Cookies");
+    bar.innerHTML =
+      '<p>This site uses Google Analytics cookies to count visits. <a href="/privacy.html">Privacy</a></p>' +
+      '<div><button type="button" class="btn btn--line btn--sm" data-consent="no">Decline</button>' +
+      '<button type="button" class="btn btn--gold btn--sm" data-consent="yes">Allow</button></div>';
+    document.body.appendChild(bar);
+    bar.addEventListener("click", function (e) {
+      var b = e.target.closest("[data-consent]");
+      if (!b) return;
+      var yes = b.getAttribute("data-consent") === "yes";
+      try {
+        localStorage.setItem("eb-consent", yes ? "yes" : "no");
+      } catch (err) {}
+      if (yes && typeof window.gtag === "function") {
+        window.gtag("consent", "update", { analytics_storage: "granted" });
+      }
+      bar.remove();
+    });
+  }
+
   // Signup form: posts to Formspree without leaving the page
   var isLive = /(^|\.)emilbinny\.com$/.test(window.location.hostname);
   document.querySelectorAll("form[data-subscribe], form[data-contact]").forEach(function (form) {

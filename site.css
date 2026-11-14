@@ -263,7 +263,7 @@ h3 {
 .hm-portrait img {
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 3px;
 }
@@ -599,6 +599,69 @@ h3 {
   border-top: 1px solid var(--rule);
   color: var(--mist);
   font-size: 0.85rem;
+}
+
+/* Consent banner (shown to visitors in Europe only) */
+.consent {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  z-index: 60;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  background: var(--ink-2);
+  border: 1px solid var(--rule-strong);
+  border-radius: 6px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+  font-size: 0.95rem;
+}
+.consent p {
+  flex: 1 1 280px;
+  color: #c9d1de;
+}
+.consent a {
+  text-decoration: underline;
+}
+.consent div {
+  display: flex;
+  gap: 10px;
+}
+
+/* Simple text pages (privacy, not found) */
+.prose {
+  max-width: 44em;
+  padding: 72px 0 96px;
+}
+.prose h1 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(2.1rem, 4.6vw, 3.2rem);
+  line-height: 1.08;
+  margin: 14px 0 28px;
+}
+.prose h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.45rem;
+  margin: 40px 0 10px;
+}
+.prose p,
+.prose li {
+  color: #c9d1de;
+  margin-bottom: 14px;
+}
+.prose ul {
+  padding-left: 1.2em;
+}
+.prose a:not(.btn) {
+  color: var(--gold-hi);
+  text-decoration: underline;
 }
 
 /* Small screens */
