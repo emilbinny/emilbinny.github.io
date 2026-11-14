@@ -8,8 +8,12 @@
 <link rel="canonical" href="https://emilbinny.com/contact.html"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="/style.css"/>
+<link rel="stylesheet" href="/site.css"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<meta name="theme-color" content="#0a1525"/>
 <style>
 .c-hero{padding:80px 0 56px}
 .c-hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(1.9rem,4.5vw,3rem);line-height:1.1;margin:16px 0 20px;max-width:20ch}
@@ -44,28 +48,31 @@
 </style>
 <meta property="og:image" content="https://emilbinny.com/og-image.jpg"/>
 <meta name="twitter:card" content="summary_large_image"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-200Q1E1TV1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-200Q1E1TV1");</script>
 </head>
 <body>
-<header>
-  <nav>
-    <a href="/" aria-label="Home"><img src="/logo.svg" alt="EB" class="logo-img"/></a>
-    <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
-    <div class="navlinks" id="nav">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Emil Mathew Binny, home"><img src="/mark.svg" alt="" width="34" height="34"/><span>Emil Mathew Binny</span></a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 6h14M3 10h14M3 14h14"/></svg></button>
+    <nav class="nav" id="nav" aria-label="Main">
       <a href="/about.html">About</a>
       <a href="/research.html">Research</a>
       <a href="/writing.html">Writing</a>
-      <a href="/contact.html" class="active">Connect</a>
-      <a href="https://gradmentor.org" class="gm-link" target="_blank" rel="noopener">GradMentor ↗</a>
-    </div>
-  </nav>
+      <a href="/contact.html" aria-current="page">Connect</a>
+      <a href="https://gradmentor.org/?utm_source=emilbinny.com&amp;utm_medium=referral&amp;utm_campaign=header" target="_blank" rel="noopener" data-ev="gradmentor_click" data-loc="header">GradMentor ↗</a>
+      <a class="btn btn--gold btn--sm" href="/#subscribe" data-ev="subscribe_intent" data-loc="header">Get new articles</a>
+    </nav>
+  </div>
 </header>
 
-<main>
+<main id="main">
   <section class="c-hero">
     <div class="wrap">
       <p class="eyebrow">Connect</p>
       <h1>Let's have a real conversation.</h1>
-      <p style="color:#c3ccd9;max-width:55ch;font-size:1rem">I respond to messages that are specific about why you're reaching out. If you're looking for admissions or career advisory services, <a href="https://gradmentor.org" style="color:var(--gold)">GradMentor</a> is the right place.</p>
+      <p style="color:#c3ccd9;max-width:55ch;font-size:1rem">Tell me what you have in mind and I will reply within two working days. For admissions or career advisory services, <a href="https://gradmentor.org/?utm_source=emilbinny.com&amp;utm_medium=referral&amp;utm_campaign=contact" data-ev="gradmentor_click" data-loc="contact" style="color:var(--gold)">GradMentor</a> is the right place.</p>
     </div>
   </section>
 
@@ -74,13 +81,13 @@
       <div>
         <div class="reason-list">
           <div class="reason"><span class="reason-mark">→</span><div><h3>Academic correspondence</h3><p>Research interests, methodology questions, collaboration on institutional or behavioral strategy.</p></div></div>
-          <div class="reason"><span class="reason-mark">→</span><div><h3>Writing &amp; ideas</h3><p>Responses to pieces, topic suggestions, or anything worth thinking through.</p></div></div>
+          <div class="reason"><span class="reason-mark">→</span><div><h3>Writing &amp; ideas</h3><p>Responses to articles, topic suggestions, or anything worth thinking through.</p></div></div>
           <div class="reason"><span class="reason-mark">→</span><div><h3>Teaching &amp; workshops</h3><p>Guest lectures, research-methods workshops, or strategy sessions for academic programs.</p></div></div>
           <div class="reason"><span class="reason-mark">→</span><div><h3>Media &amp; press</h3><p>Commentary on strategy, institutional economics, or the Indian higher education landscape.</p></div></div>
         </div>
 
         <div class="c-direct">
-          <a href="mailto:emil@emilbinny.com"><span class="icon">✉</span> emil@emilbinny.com</a>
+          <a href="mailto:emil@emilbinny.com" data-ev="email_click" data-loc="contact"><span class="icon">✉</span> emil@emilbinny.com</a>
           <a href="https://www.linkedin.com/in/emilbinny/" target="_blank" rel="noopener"><span class="icon">in</span> linkedin.com/in/emilbinny</a>
           <a href="https://twitter.com/EmilBinny" target="_blank" rel="noopener"><span class="icon">𝕏</span> @EmilBinny</a>
         </div>
@@ -88,13 +95,13 @@
         <div class="gm-card">
           <h3>Looking for admissions or career guidance?</h3>
           <p>That work happens through GradMentor — a boutique advisory practice for MBA, MS, PhD, and medical applicants targeting top global programs. Book a free 30-minute discovery call there.</p>
-          <a href="https://gradmentor.org" class="btn btn-primary" target="_blank" rel="noopener" style="font-size:.88rem;padding:11px 18px">Visit GradMentor ↗</a>
+          <a href="https://gradmentor.org/?utm_source=emilbinny.com&amp;utm_medium=referral&amp;utm_campaign=contact" data-ev="gradmentor_click" data-loc="contact" class="btn btn-primary" target="_blank" rel="noopener" style="font-size:.88rem;padding:11px 18px">Visit GradMentor ↗</a>
         </div>
       </div>
 
       <div class="form-panel">
         <h2>Send a message</h2>
-        <form action="https://formspree.io/f/mkoybyoe" method="POST">
+        <form action="https://formspree.io/f/mkoybyoe" method="POST" data-contact data-loc="contact">
           <div class="field">
             <label for="name">Your name</label>
             <input type="text" id="name" name="name" placeholder="Full name" required/>
@@ -116,11 +123,12 @@
           </div>
           <div class="field">
             <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Be specific — I respond to messages that know what they're asking." required></textarea>
+            <textarea id="message" name="message" placeholder="What would you like to talk about?" required></textarea>
           </div>
-          <input type="hidden" name="_replyto" value="emil.binny@gmail.com"/>
-          <input type="text" name="_gotcha" style="display:none"/>
+          <input type="hidden" name="_subject" value="Website enquiry (emilbinny.com)"/>
+          <input class="hp" type="text" name="_gotcha" id="c-hp" tabindex="-1" autocomplete="off" aria-hidden="true"/>
           <button type="submit" class="btn btn-primary" style="width:100%">Send message</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
           <p class="form-note">I aim to respond within 48 hours on working days.</p>
         </form>
       </div>
@@ -128,32 +136,34 @@
   </section>
 </main>
 
-<footer>
+<footer class="site-foot">
   <div class="wrap">
-    <div class="foot-top">
+    <div class="foot-grid">
       <div>
         <div class="foot-name">Emil Mathew Binny</div>
         <div class="foot-tag">Strategy · International Business · Applied Economics</div>
       </div>
-      <div class="foot-links">
-        <a href="/about.html">About</a>
-        <a href="/research.html">Research</a>
-        <a href="/writing.html">Writing</a>
-        <a href="/contact.html">Connect</a>
-        <a href="https://gradmentor.org" target="_blank" rel="noopener">GradMentor ↗</a>
-        <div class="socials">
-          <a href="https://www.linkedin.com/in/emilbinny/" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://twitter.com/EmilBinny" target="_blank" rel="noopener">X</a>
-          <a href="mailto:emil@emilbinny.com">Email</a>
-        </div>
+      <div class="foot-cols">
+        <ul>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/research.html">Research</a></li>
+          <li><a href="/writing.html">Writing</a></li>
+          <li><a href="/contact.html">Connect</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/emilbinny/" target="_blank" rel="noopener" data-ev="social_click" data-loc="footer">LinkedIn</a></li>
+          <li><a href="https://twitter.com/EmilBinny" target="_blank" rel="noopener" data-ev="social_click" data-loc="footer">X</a></li>
+          <li><a href="https://www.instagram.com/_dil_e_mil_/" target="_blank" rel="noopener" data-ev="social_click" data-loc="footer">Instagram</a></li>
+        </ul>
+        <ul>
+          <li><a href="mailto:emil@emilbinny.com" data-ev="email_click" data-loc="footer">emil@emilbinny.com</a></li>
+          <li><a href="https://gradmentor.org/?utm_source=emilbinny.com&amp;utm_medium=referral&amp;utm_campaign=footer" target="_blank" rel="noopener" data-ev="gradmentor_click" data-loc="footer">GradMentor ↗</a></li>
+        </ul>
       </div>
     </div>
     <div class="copy">© 2026 Emil Mathew Binny. All rights reserved.</div>
   </div>
 </footer>
-<script>
-var b=document.querySelector('.menu-btn'),n=document.getElementById('nav');
-if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});n.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('open');b.setAttribute('aria-expanded',false)})})}
-</script>
+<script src="/site.js" defer></script>
 </body>
 </html>
