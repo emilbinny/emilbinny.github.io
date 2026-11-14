@@ -1,4 +1,7 @@
 # emilbinny.com — Complete Site Documentation
+
+> **Update, 14 November 2026.** The site moved to design system v2. Shared header, footer, buttons and components now live in `site.css`; behaviour (menu, forms, analytics events) lives in `site.js`; `style.css` keeps only legacy page-content rules. The logo is `mark.svg` (header) and `favicon.svg` (small sizes). Google Analytics 4 (`G-200Q1E1TV1`) is in the `<head>` of every page. `services.html` and `blog.html` are redirects. Sections below that describe the old header, logo or fonts are out of date.
+
 **Last updated:** June 2026  
 **Live URL:** https://emilbinny.com  
 **GitHub repo:** https://github.com/emilbinny/emilbinny.github.io  
