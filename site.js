@@ -1,4 +1,16 @@
 /* emilbinny.com shared behaviour: menu, analytics events, signup and contact forms */
+/* Microsoft Clarity (session recordings and heatmaps). Visitors in Europe get it only after they allow analytics. */
+function ebLoadClarity() {
+  if (window.clarity) return;
+  (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","zdpecbkrll");
+}
+(function () {
+  var tz = "", c = null;
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
+  try { c = localStorage.getItem("eb-consent"); } catch (e) {}
+  if (!/^Europe\//.test(tz) || c === "yes") ebLoadClarity();
+})();
+
 (function () {
   "use strict";
 
@@ -54,6 +66,7 @@
       } catch (err) {}
       if (yes && typeof window.gtag === "function") {
         window.gtag("consent", "update", { analytics_storage: "granted" });
+          ebLoadClarity();
       }
       bar.remove();
     });
